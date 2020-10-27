@@ -12,8 +12,8 @@ def null_count(df):
 #create a date split function.
 def date_split(df2):
     df2['col'] = df2.select_dtypes('datetime')
-    df2['year']=df2['col'].dt.year
-    df2['month']=df2['col'].dt.month
-    df2['day']=df2['col'].dt.day
-    df2=df2.drop(columns='col')
+    df2['year'] = df2['col'].dt.year
+    df2['month'] = df2['col'].dt.month
+    df2['day'] = df2['col'].dt.day
+    df2 = df2.drop(columns='col')
     return df2
