@@ -6,10 +6,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example-pkg-YOUR-USERNAME-HERE", # Replace with your own username
+    name="example-pkg-Indrejue", # Replace with your own username
     version="0.0.1",
     author="Antony Farag",
-    author_email="author@example.com",
+    author_email="antony.Farag1@gmail.com",
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
